@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@playwright/test": "^1.64.0"
+  },
+  "name": "relay-checks",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser integration checks for the Flutter + FastAPI Relay app",
+  "scripts": {
+    "test:e2e": "node tests/e2e.mjs"
+  }
+}

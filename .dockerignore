@@ -1,0 +1,8 @@
+**/__pycache__
+**/.dart_tool
+**/build
+**/.git
+**/node_modules
+backend/data
+.env
+*.zip

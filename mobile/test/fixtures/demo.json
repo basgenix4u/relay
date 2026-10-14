@@ -1,0 +1,1316 @@
+{
+  "user": {
+    "id": 1,
+    "name": "Alex Morgan",
+    "email": "alex@relay.demo",
+    "workspace": "Acme Studio",
+    "demo": true,
+    "settings": {
+      "email_notifications": true,
+      "delivery_notifications": true,
+      "timezone": "Africa/Lagos"
+    }
+  },
+  "dashboard": {
+    "total_contacts": 2486,
+    "opted_in": 2283,
+    "new_contacts": 301,
+    "messages_sent": 7558,
+    "delivered": 7423,
+    "read": 5227,
+    "failed": 135,
+    "delivery_rate": 98.2,
+    "read_rate": 69.2,
+    "total_campaigns": 10,
+    "active_campaigns": 2,
+    "days": 7,
+    "chart": [
+      {
+        "date": "2026-10-07",
+        "sent": 920,
+        "delivered": 904,
+        "read": 636
+      },
+      {
+        "date": "2026-10-08",
+        "sent": 1820,
+        "delivered": 1787,
+        "read": 1257
+      },
+      {
+        "date": "2026-10-09",
+        "sent": 1867,
+        "delivered": 1834,
+        "read": 1292
+      },
+      {
+        "date": "2026-10-10",
+        "sent": 286,
+        "delivered": 281,
+        "read": 199
+      },
+      {
+        "date": "2026-10-11",
+        "sent": 1215,
+        "delivered": 1193,
+        "read": 841
+      },
+      {
+        "date": "2026-10-12",
+        "sent": 1450,
+        "delivered": 1424,
+        "read": 1002
+      },
+      {
+        "date": "2026-10-13",
+        "sent": 0,
+        "delivered": 0,
+        "read": 0
+      }
+    ],
+    "segments": [
+      {
+        "status": "opted_in",
+        "count": 2283
+      },
+      {
+        "status": "pending",
+        "count": 143
+      },
+      {
+        "status": "unsubscribed",
+        "count": 60
+      }
+    ],
+    "recent_campaigns": [
+      {
+        "id": 1,
+        "user_id": 1,
+        "name": "Weekend flash sale",
+        "template_id": 1,
+        "group_id": null,
+        "audience": "All opted-in contacts",
+        "message": "Hi {{1}} \ud83d\udc4b\n\nA little something for your weekend: enjoy 20% off our entire collection with code WEEKEND20.\n\nYour next favorite is waiting. Offer ends Sunday.\n\nReply STOP to opt out.",
+        "variables": [],
+        "status": "Completed",
+        "mode": "demo",
+        "scheduled_at": null,
+        "sent_at": "2026-10-12T20:50:52.694755+00:00",
+        "color": "#ECF2E4",
+        "created_at": "2026-10-12T20:50:52.694755+00:00",
+        "updated_at": "2026-10-12T20:50:52.694755+00:00",
+        "last_error": "",
+        "total": 1450,
+        "sent": 1424,
+        "delivered": 1424,
+        "read": 1002,
+        "failed": 26,
+        "audience_count": 2283,
+        "template": {
+          "title": "Weekend flash sale",
+          "status": "Demo approved",
+          "name": "weekend_flash_sale"
+        }
+      },
+      {
+        "id": 7,
+        "user_id": 1,
+        "name": "VIP early access",
+        "template_id": 6,
+        "group_id": 3,
+        "audience": "VIP community",
+        "message": "Hello {{1}} \u2728\n\nFresh arrivals are here, and we think you'll love them. Explore the new collection and find something that feels like you.\n\nReply STOP to opt out.",
+        "variables": [],
+        "status": "Scheduled",
+        "mode": "demo",
+        "scheduled_at": "2026-10-14T22:50:52.694755+00:00",
+        "sent_at": null,
+        "color": "#F4E6EA",
+        "created_at": "2026-10-13T22:50:52+00:00",
+        "updated_at": "2026-10-13T22:50:52+00:00",
+        "last_error": "",
+        "total": 0,
+        "sent": 0,
+        "delivered": 0,
+        "read": 0,
+        "failed": 0,
+        "audience_count": 262,
+        "template": {
+          "title": "Meet your new favorites",
+          "status": "Demo approved",
+          "name": "new_product_drop"
+        }
+      },
+      {
+        "id": 2,
+        "user_id": 1,
+        "name": "October new arrivals",
+        "template_id": 6,
+        "group_id": null,
+        "audience": "All opted-in contacts",
+        "message": "Hello {{1}} \u2728\n\nFresh arrivals are here, and we think you'll love them. Explore the new collection and find something that feels like you.\n\nReply STOP to opt out.",
+        "variables": [],
+        "status": "Completed",
+        "mode": "demo",
+        "scheduled_at": null,
+        "sent_at": "2026-10-11T20:50:52.694755+00:00",
+        "color": "#F4E6EA",
+        "created_at": "2026-10-11T20:50:52.694755+00:00",
+        "updated_at": "2026-10-11T20:50:52.694755+00:00",
+        "last_error": "",
+        "total": 1215,
+        "sent": 1193,
+        "delivered": 1193,
+        "read": 841,
+        "failed": 22,
+        "audience_count": 2283,
+        "template": {
+          "title": "Meet your new favorites",
+          "status": "Demo approved",
+          "name": "new_product_drop"
+        }
+      },
+      {
+        "id": 10,
+        "user_id": 1,
+        "name": "Holiday collection preview",
+        "template_id": 6,
+        "group_id": null,
+        "audience": "All opted-in contacts",
+        "message": "Hello {{1}} \u2728\n\nFresh arrivals are here, and we think you'll love them. Explore the new collection and find something that feels like you.\n\nReply STOP to opt out.",
+        "variables": [],
+        "status": "Draft",
+        "mode": "demo",
+        "scheduled_at": null,
+        "sent_at": null,
+        "color": "#F4E6EA",
+        "created_at": "2026-10-13T22:50:52+00:00",
+        "updated_at": "2026-10-13T22:50:52+00:00",
+        "last_error": "",
+        "total": 0,
+        "sent": 0,
+        "delivered": 0,
+        "read": 0,
+        "failed": 0,
+        "audience_count": 2283,
+        "template": {
+          "title": "Meet your new favorites",
+          "status": "Demo approved",
+          "name": "new_product_drop"
+        }
+      },
+      {
+        "id": 3,
+        "user_id": 1,
+        "name": "A thank-you to our VIPs",
+        "template_id": 5,
+        "group_id": null,
+        "audience": "VIP community",
+        "message": "Hi {{1}}, this one's for you. \ud83d\udc9a\n\nThank you for being part of our story. Here's 15% off your next order, just because. Use THANKYOU15.\n\nReply STOP to opt out.",
+        "variables": [],
+        "status": "Completed",
+        "mode": "demo",
+        "scheduled_at": null,
+        "sent_at": "2026-10-10T20:50:52.694755+00:00",
+        "color": "#E5F2E9",
+        "created_at": "2026-10-10T20:50:52.694755+00:00",
+        "updated_at": "2026-10-10T20:50:52.694755+00:00",
+        "last_error": "",
+        "total": 286,
+        "sent": 281,
+        "delivered": 281,
+        "read": 199,
+        "failed": 5,
+        "audience_count": 2283,
+        "template": {
+          "title": "A little thank-you",
+          "status": "Demo approved",
+          "name": "customer_thank_you"
+        }
+      }
+    ],
+    "activities": [
+      {
+        "id": 1,
+        "user_id": 1,
+        "title": "Weekend flash sale completed",
+        "description": "1,424 messages delivered to your community",
+        "kind": "campaign",
+        "created_at": "2026-10-13T22:38:52.694755+00:00"
+      },
+      {
+        "id": 2,
+        "user_id": 1,
+        "title": "New contacts added",
+        "description": "42 subscribers joined Lagos customers",
+        "kind": "contact",
+        "created_at": "2026-10-13T22:12:52.694755+00:00"
+      },
+      {
+        "id": 3,
+        "user_id": 1,
+        "title": "VIP early access scheduled",
+        "description": "Ready for tomorrow. Your VIPs are in for a treat.",
+        "kind": "schedule",
+        "created_at": "2026-10-13T21:26:52.694755+00:00"
+      },
+      {
+        "id": 4,
+        "user_id": 1,
+        "title": "Contact list imported",
+        "description": "Abuja founders \u00b7 consented member list",
+        "kind": "group",
+        "created_at": "2026-10-13T20:45:52.694755+00:00"
+      }
+    ],
+    "groups": [
+      {
+        "id": 1,
+        "user_id": 1,
+        "name": "Lagos customers",
+        "description": "Your Lagos community. Customer offers, new arrivals, and useful updates.",
+        "color": "#C9DDB2",
+        "source": "CSV import",
+        "created_at": "2026-09-08T22:50:52.694755+00:00",
+        "total": 684,
+        "opted_in": 628,
+        "preview": [
+          {
+            "first_name": "Amara",
+            "last_name": "Okafor"
+          },
+          {
+            "first_name": "Adebayo",
+            "last_name": "Adeyemi"
+          },
+          {
+            "first_name": "Sarah",
+            "last_name": "Johnson"
+          },
+          {
+            "first_name": "David",
+            "last_name": "Chen"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "user_id": 1,
+        "name": "Abuja founders",
+        "description": "Entrepreneurs who opted in at the Abuja Founders Meetup.",
+        "color": "#C6D4ED",
+        "source": "Group opt-in",
+        "created_at": "2026-09-08T22:50:52.694755+00:00",
+        "total": 412,
+        "opted_in": 379,
+        "preview": [
+          {
+            "first_name": "Joy",
+            "last_name": "Johnson"
+          },
+          {
+            "first_name": "Abubakar",
+            "last_name": "Chen"
+          },
+          {
+            "first_name": "Ruth",
+            "last_name": "Ibrahim"
+          },
+          {
+            "first_name": "Anthony",
+            "last_name": "Eze"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "user_id": 1,
+        "name": "VIP community",
+        "description": "Our most loyal customers. A little extra care goes a long way.",
+        "color": "#E7C6EA",
+        "source": "CSV import",
+        "created_at": "2026-09-08T22:50:52.694755+00:00",
+        "total": 286,
+        "opted_in": 262,
+        "preview": [
+          {
+            "first_name": "Zainab",
+            "last_name": "Balogun"
+          },
+          {
+            "first_name": "Michael",
+            "last_name": "Ahmed"
+          },
+          {
+            "first_name": "Ada",
+            "last_name": "Lewis"
+          },
+          {
+            "first_name": "Daniel",
+            "last_name": "Afolabi"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "user_id": 1,
+        "name": "New subscribers",
+        "description": "Fresh faces who joined through our store's opt-in form.",
+        "color": "#F1D8B3",
+        "source": "Opt-in form",
+        "created_at": "2026-09-08T22:50:52.694755+00:00",
+        "total": 512,
+        "opted_in": 470,
+        "preview": [
+          {
+            "first_name": "Maya",
+            "last_name": "Olawale"
+          },
+          {
+            "first_name": "Chika",
+            "last_name": "Bello"
+          },
+          {
+            "first_name": "Uche",
+            "last_name": "Adebayo"
+          },
+          {
+            "first_name": "Nathan",
+            "last_name": "Nwosu"
+          }
+        ]
+      }
+    ]
+  },
+  "groups": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "name": "Lagos customers",
+      "description": "Your Lagos community. Customer offers, new arrivals, and useful updates.",
+      "color": "#C9DDB2",
+      "source": "CSV import",
+      "created_at": "2026-09-08T22:50:52.694755+00:00",
+      "total": 684,
+      "opted_in": 628,
+      "preview": [
+        {
+          "first_name": "Amara",
+          "last_name": "Okafor"
+        },
+        {
+          "first_name": "Adebayo",
+          "last_name": "Adeyemi"
+        },
+        {
+          "first_name": "Sarah",
+          "last_name": "Johnson"
+        },
+        {
+          "first_name": "David",
+          "last_name": "Chen"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "name": "Abuja founders",
+      "description": "Entrepreneurs who opted in at the Abuja Founders Meetup.",
+      "color": "#C6D4ED",
+      "source": "Group opt-in",
+      "created_at": "2026-09-08T22:50:52.694755+00:00",
+      "total": 412,
+      "opted_in": 379,
+      "preview": [
+        {
+          "first_name": "Joy",
+          "last_name": "Johnson"
+        },
+        {
+          "first_name": "Abubakar",
+          "last_name": "Chen"
+        },
+        {
+          "first_name": "Ruth",
+          "last_name": "Ibrahim"
+        },
+        {
+          "first_name": "Anthony",
+          "last_name": "Eze"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "name": "VIP community",
+      "description": "Our most loyal customers. A little extra care goes a long way.",
+      "color": "#E7C6EA",
+      "source": "CSV import",
+      "created_at": "2026-09-08T22:50:52.694755+00:00",
+      "total": 286,
+      "opted_in": 262,
+      "preview": [
+        {
+          "first_name": "Zainab",
+          "last_name": "Balogun"
+        },
+        {
+          "first_name": "Michael",
+          "last_name": "Ahmed"
+        },
+        {
+          "first_name": "Ada",
+          "last_name": "Lewis"
+        },
+        {
+          "first_name": "Daniel",
+          "last_name": "Afolabi"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "name": "New subscribers",
+      "description": "Fresh faces who joined through our store's opt-in form.",
+      "color": "#F1D8B3",
+      "source": "Opt-in form",
+      "created_at": "2026-09-08T22:50:52.694755+00:00",
+      "total": 512,
+      "opted_in": 470,
+      "preview": [
+        {
+          "first_name": "Maya",
+          "last_name": "Olawale"
+        },
+        {
+          "first_name": "Chika",
+          "last_name": "Bello"
+        },
+        {
+          "first_name": "Uche",
+          "last_name": "Adebayo"
+        },
+        {
+          "first_name": "Nathan",
+          "last_name": "Nwosu"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "name": "Event attendees",
+      "description": "Keep the conversation going after your last community event.",
+      "color": "#B8DEDA",
+      "source": "Group opt-in",
+      "created_at": "2026-09-08T22:50:52.694755+00:00",
+      "total": 398,
+      "opted_in": 367,
+      "preview": [
+        {
+          "first_name": "Maya",
+          "last_name": "Okechukwu"
+        },
+        {
+          "first_name": "Chika",
+          "last_name": "Brown"
+        },
+        {
+          "first_name": "Uche",
+          "last_name": "Adesina"
+        },
+        {
+          "first_name": "Nathan",
+          "last_name": "Okeke"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "user_id": 1,
+      "name": "Store enquiries",
+      "description": "People who asked to hear more about our products.",
+      "color": "#D7D1EE",
+      "source": "Manual",
+      "created_at": "2026-09-08T22:50:52.694755+00:00",
+      "total": 194,
+      "opted_in": 177,
+      "preview": [
+        {
+          "first_name": "Hannah",
+          "last_name": "Walker"
+        },
+        {
+          "first_name": "Usman",
+          "last_name": "Ogunleye"
+        },
+        {
+          "first_name": "Chisom",
+          "last_name": "Roberts"
+        },
+        {
+          "first_name": "Caleb",
+          "last_name": "Campbell"
+        }
+      ]
+    }
+  ],
+  "contactData": {
+    "items": [
+      {
+        "id": 1,
+        "user_id": 1,
+        "first_name": "Amara",
+        "last_name": "Okafor",
+        "phone": "+2348000000000",
+        "email": "amara.okafor0@demo.example",
+        "company": "Studio Okafor",
+        "tags": [
+          "Customer"
+        ],
+        "consent_status": "opted_in",
+        "consent_source": "Synthetic demo opt-in record",
+        "consent_at": "2026-10-13T22:50:52.694755+00:00",
+        "source": "CSV import",
+        "is_demo": true,
+        "created_at": "2026-10-13T22:50:52.694755+00:00",
+        "updated_at": "2026-10-13T22:50:52.694755+00:00",
+        "groups": [
+          {
+            "id": 1,
+            "name": "Lagos customers",
+            "color": "#C9DDB2"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "user_id": 1,
+        "first_name": "Adebayo",
+        "last_name": "Adeyemi",
+        "phone": "+2348000000001",
+        "email": "adebayo.adeyemi1@demo.example",
+        "company": "",
+        "tags": [
+          "Customer"
+        ],
+        "consent_status": "opted_in",
+        "consent_source": "Synthetic demo opt-in record",
+        "consent_at": "2026-10-12T21:50:52.694755+00:00",
+        "source": "CSV import",
+        "is_demo": true,
+        "created_at": "2026-10-12T21:50:52.694755+00:00",
+        "updated_at": "2026-10-12T21:50:52.694755+00:00",
+        "groups": [
+          {
+            "id": 1,
+            "name": "Lagos customers",
+            "color": "#C9DDB2"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "user_id": 1,
+        "first_name": "Sarah",
+        "last_name": "Johnson",
+        "phone": "+2348000000002",
+        "email": "sarah.johnson2@demo.example",
+        "company": "",
+        "tags": [
+          "Customer"
+        ],
+        "consent_status": "opted_in",
+        "consent_source": "Synthetic demo opt-in record",
+        "consent_at": "2026-10-11T20:50:52.694755+00:00",
+        "source": "CSV import",
+        "is_demo": true,
+        "created_at": "2026-10-11T20:50:52.694755+00:00",
+        "updated_at": "2026-10-11T20:50:52.694755+00:00",
+        "groups": [
+          {
+            "id": 1,
+            "name": "Lagos customers",
+            "color": "#C9DDB2"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "user_id": 1,
+        "first_name": "David",
+        "last_name": "Chen",
+        "phone": "+2348000000003",
+        "email": "david.chen3@demo.example",
+        "company": "",
+        "tags": [
+          "Customer"
+        ],
+        "consent_status": "opted_in",
+        "consent_source": "Synthetic demo opt-in record",
+        "consent_at": "2026-10-10T19:50:52.694755+00:00",
+        "source": "CSV import",
+        "is_demo": true,
+        "created_at": "2026-10-10T19:50:52.694755+00:00",
+        "updated_at": "2026-10-10T19:50:52.694755+00:00",
+        "groups": [
+          {
+            "id": 1,
+            "name": "Lagos customers",
+            "color": "#C9DDB2"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "user_id": 1,
+        "first_name": "Fatima",
+        "last_name": "Ibrahim",
+        "phone": "+2348000000004",
+        "email": "fatima.ibrahim4@demo.example",
+        "company": "Studio Ibrahim",
+        "tags": [
+          "Customer"
+        ],
+        "consent_status": "opted_in",
+        "consent_source": "Synthetic demo opt-in record",
+        "consent_at": "2026-10-09T18:50:52.694755+00:00",
+        "source": "CSV import",
+        "is_demo": true,
+        "created_at": "2026-10-09T18:50:52.694755+00:00",
+        "updated_at": "2026-10-09T18:50:52.694755+00:00",
+        "groups": [
+          {
+            "id": 1,
+            "name": "Lagos customers",
+            "color": "#C9DDB2"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "user_id": 1,
+        "first_name": "Chinedu",
+        "last_name": "Eze",
+        "phone": "+2348000000005",
+        "email": "chinedu.eze5@demo.example",
+        "company": "",
+        "tags": [
+          "Customer"
+        ],
+        "consent_status": "opted_in",
+        "consent_source": "Synthetic demo opt-in record",
+        "consent_at": "2026-10-08T17:50:52.694755+00:00",
+        "source": "CSV import",
+        "is_demo": true,
+        "created_at": "2026-10-08T17:50:52.694755+00:00",
+        "updated_at": "2026-10-08T17:50:52.694755+00:00",
+        "groups": [
+          {
+            "id": 1,
+            "name": "Lagos customers",
+            "color": "#C9DDB2"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "user_id": 1,
+        "first_name": "Grace",
+        "last_name": "Williams",
+        "phone": "+2348000000006",
+        "email": "grace.williams6@demo.example",
+        "company": "",
+        "tags": [
+          "Customer"
+        ],
+        "consent_status": "opted_in",
+        "consent_source": "Synthetic demo opt-in record",
+        "consent_at": "2026-10-07T16:50:52.694755+00:00",
+        "source": "CSV import",
+        "is_demo": true,
+        "created_at": "2026-10-07T16:50:52.694755+00:00",
+        "updated_at": "2026-10-07T16:50:52.694755+00:00",
+        "groups": [
+          {
+            "id": 1,
+            "name": "Lagos customers",
+            "color": "#C9DDB2"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "user_id": 1,
+        "first_name": "Tunde",
+        "last_name": "Olawale",
+        "phone": "+2348000000007",
+        "email": "tunde.olawale7@demo.example",
+        "company": "",
+        "tags": [
+          "Customer"
+        ],
+        "consent_status": "opted_in",
+        "consent_source": "Synthetic demo opt-in record",
+        "consent_at": "2026-10-06T15:50:52.694755+00:00",
+        "source": "CSV import",
+        "is_demo": true,
+        "created_at": "2026-10-06T15:50:52.694755+00:00",
+        "updated_at": "2026-10-06T15:50:52.694755+00:00",
+        "groups": [
+          {
+            "id": 1,
+            "name": "Lagos customers",
+            "color": "#C9DDB2"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "user_id": 1,
+        "first_name": "Zainab",
+        "last_name": "Bello",
+        "phone": "+2348000000008",
+        "email": "zainab.bello8@demo.example",
+        "company": "Studio Bello",
+        "tags": [
+          "Customer"
+        ],
+        "consent_status": "opted_in",
+        "consent_source": "Synthetic demo opt-in record",
+        "consent_at": "2026-10-05T14:50:52.694755+00:00",
+        "source": "CSV import",
+        "is_demo": true,
+        "created_at": "2026-10-05T14:50:52.694755+00:00",
+        "updated_at": "2026-10-05T14:50:52.694755+00:00",
+        "groups": [
+          {
+            "id": 1,
+            "name": "Lagos customers",
+            "color": "#C9DDB2"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "user_id": 1,
+        "first_name": "Michael",
+        "last_name": "Adebayo",
+        "phone": "+2348000000009",
+        "email": "michael.adebayo9@demo.example",
+        "company": "",
+        "tags": [
+          "Customer"
+        ],
+        "consent_status": "opted_in",
+        "consent_source": "Synthetic demo opt-in record",
+        "consent_at": "2026-10-04T13:50:52.694755+00:00",
+        "source": "CSV import",
+        "is_demo": true,
+        "created_at": "2026-10-04T13:50:52.694755+00:00",
+        "updated_at": "2026-10-04T13:50:52.694755+00:00",
+        "groups": [
+          {
+            "id": 1,
+            "name": "Lagos customers",
+            "color": "#C9DDB2"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "user_id": 1,
+        "first_name": "Ada",
+        "last_name": "Nwosu",
+        "phone": "+2348000000010",
+        "email": "ada.nwosu10@demo.example",
+        "company": "",
+        "tags": [
+          "Customer"
+        ],
+        "consent_status": "opted_in",
+        "consent_source": "Synthetic demo opt-in record",
+        "consent_at": "2026-10-03T12:50:52.694755+00:00",
+        "source": "CSV import",
+        "is_demo": true,
+        "created_at": "2026-10-03T12:50:52.694755+00:00",
+        "updated_at": "2026-10-03T12:50:52.694755+00:00",
+        "groups": [
+          {
+            "id": 1,
+            "name": "Lagos customers",
+            "color": "#C9DDB2"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "user_id": 1,
+        "first_name": "Daniel",
+        "last_name": "Smith",
+        "phone": "+2348000000011",
+        "email": "daniel.smith11@demo.example",
+        "company": "",
+        "tags": [
+          "Customer"
+        ],
+        "consent_status": "opted_in",
+        "consent_source": "Synthetic demo opt-in record",
+        "consent_at": "2026-10-02T11:50:52.694755+00:00",
+        "source": "CSV import",
+        "is_demo": true,
+        "created_at": "2026-10-02T11:50:52.694755+00:00",
+        "updated_at": "2026-10-02T11:50:52.694755+00:00",
+        "groups": [
+          {
+            "id": 1,
+            "name": "Lagos customers",
+            "color": "#C9DDB2"
+          }
+        ]
+      }
+    ],
+    "total": 2486,
+    "page": 1,
+    "limit": 12,
+    "counts": {
+      "opted_in": 2283,
+      "pending": 143,
+      "unsubscribed": 60
+    }
+  },
+  "templates": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "title": "Weekend flash sale",
+      "name": "weekend_flash_sale",
+      "body": "Hi {{1}} \ud83d\udc4b\n\nA little something for your weekend: enjoy 20% off our entire collection with code WEEKEND20.\n\nYour next favorite is waiting. Offer ends Sunday.\n\nReply STOP to opt out.",
+      "category": "MARKETING",
+      "language": "en",
+      "status": "Demo approved",
+      "meta_id": null,
+      "variable_count": 1,
+      "color": "#ECF2E4",
+      "created_at": "2026-09-22T22:50:52.694755+00:00",
+      "updated_at": "2026-10-13T22:50:52+00:00"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "title": "Welcome to the community",
+      "name": "community_welcome",
+      "body": "Hi {{1}}, welcome to our little corner of the world! \ud83c\udf3f\n\nWe're so glad you're here. Expect thoughtful updates, first looks, and the occasional treat.\n\nReply STOP to opt out.",
+      "category": "MARKETING",
+      "language": "en",
+      "status": "Demo approved",
+      "meta_id": null,
+      "variable_count": 1,
+      "color": "#EDE8F6",
+      "created_at": "2026-09-22T22:50:52.694755+00:00",
+      "updated_at": "2026-10-13T22:50:52+00:00"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "title": "Your order is on its way",
+      "name": "order_update",
+      "body": "Hello {{1}}, good news! Your order is on its way. \ud83d\udce6\n\nWe'll share tracking details soon. Thank you for supporting our business.",
+      "category": "UTILITY",
+      "language": "en",
+      "status": "Demo approved",
+      "meta_id": null,
+      "variable_count": 1,
+      "color": "#E2EFF3",
+      "created_at": "2026-09-22T22:50:52.694755+00:00",
+      "updated_at": "2026-10-13T22:50:52+00:00"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "title": "Let's meet at the pop-up",
+      "name": "community_event",
+      "body": "Hey {{1}}, you're invited! \ud83c\udf89\n\nJoin us at the community pop-up this Saturday, 11 am \u2013 5 pm. Good people, great finds, and a few surprises.\n\nReply STOP to opt out.",
+      "category": "MARKETING",
+      "language": "en",
+      "status": "Demo approved",
+      "meta_id": null,
+      "variable_count": 1,
+      "color": "#F6ECDD",
+      "created_at": "2026-09-22T22:50:52.694755+00:00",
+      "updated_at": "2026-10-13T22:50:52+00:00"
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "title": "A little thank-you",
+      "name": "customer_thank_you",
+      "body": "Hi {{1}}, this one's for you. \ud83d\udc9a\n\nThank you for being part of our story. Here's 15% off your next order, just because. Use THANKYOU15.\n\nReply STOP to opt out.",
+      "category": "MARKETING",
+      "language": "en",
+      "status": "Demo approved",
+      "meta_id": null,
+      "variable_count": 1,
+      "color": "#E5F2E9",
+      "created_at": "2026-09-22T22:50:52.694755+00:00",
+      "updated_at": "2026-10-13T22:50:52+00:00"
+    },
+    {
+      "id": 6,
+      "user_id": 1,
+      "title": "Meet your new favorites",
+      "name": "new_product_drop",
+      "body": "Hello {{1}} \u2728\n\nFresh arrivals are here, and we think you'll love them. Explore the new collection and find something that feels like you.\n\nReply STOP to opt out.",
+      "category": "MARKETING",
+      "language": "en",
+      "status": "Demo approved",
+      "meta_id": null,
+      "variable_count": 1,
+      "color": "#F4E6EA",
+      "created_at": "2026-09-22T22:50:52.694755+00:00",
+      "updated_at": "2026-10-13T22:50:52+00:00"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": 10,
+      "user_id": 1,
+      "name": "Holiday collection preview",
+      "template_id": 6,
+      "group_id": null,
+      "audience": "All opted-in contacts",
+      "message": "Hello {{1}} \u2728\n\nFresh arrivals are here, and we think you'll love them. Explore the new collection and find something that feels like you.\n\nReply STOP to opt out.",
+      "variables": [],
+      "status": "Draft",
+      "mode": "demo",
+      "scheduled_at": null,
+      "sent_at": null,
+      "color": "#F4E6EA",
+      "created_at": "2026-10-13T22:50:52+00:00",
+      "updated_at": "2026-10-13T22:50:52+00:00",
+      "last_error": "",
+      "total": 0,
+      "sent": 0,
+      "delivered": 0,
+      "read": 0,
+      "failed": 0,
+      "audience_count": 2283,
+      "template": {
+        "title": "Meet your new favorites",
+        "status": "Demo approved",
+        "name": "new_product_drop"
+      }
+    },
+    {
+      "id": 9,
+      "user_id": 1,
+      "name": "New subscriber welcome",
+      "template_id": 2,
+      "group_id": 4,
+      "audience": "New subscribers",
+      "message": "Hi {{1}}, welcome to our little corner of the world! \ud83c\udf3f\n\nWe're so glad you're here. Expect thoughtful updates, first looks, and the occasional treat.\n\nReply STOP to opt out.",
+      "variables": [],
+      "status": "Draft",
+      "mode": "demo",
+      "scheduled_at": null,
+      "sent_at": null,
+      "color": "#EDE8F6",
+      "created_at": "2026-10-13T22:50:52+00:00",
+      "updated_at": "2026-10-13T22:50:52+00:00",
+      "last_error": "",
+      "total": 0,
+      "sent": 0,
+      "delivered": 0,
+      "read": 0,
+      "failed": 0,
+      "audience_count": 470,
+      "template": {
+        "title": "Welcome to the community",
+        "status": "Demo approved",
+        "name": "community_welcome"
+      }
+    },
+    {
+      "id": 8,
+      "user_id": 1,
+      "name": "Midweek little treat",
+      "template_id": 5,
+      "group_id": 1,
+      "audience": "Lagos customers",
+      "message": "Hi {{1}}, this one's for you. \ud83d\udc9a\n\nThank you for being part of our story. Here's 15% off your next order, just because. Use THANKYOU15.\n\nReply STOP to opt out.",
+      "variables": [],
+      "status": "Scheduled",
+      "mode": "demo",
+      "scheduled_at": "2026-10-15T22:50:52.694755+00:00",
+      "sent_at": null,
+      "color": "#E5F2E9",
+      "created_at": "2026-10-13T22:50:52+00:00",
+      "updated_at": "2026-10-13T22:50:52+00:00",
+      "last_error": "",
+      "total": 0,
+      "sent": 0,
+      "delivered": 0,
+      "read": 0,
+      "failed": 0,
+      "audience_count": 628,
+      "template": {
+        "title": "A little thank-you",
+        "status": "Demo approved",
+        "name": "customer_thank_you"
+      }
+    },
+    {
+      "id": 7,
+      "user_id": 1,
+      "name": "VIP early access",
+      "template_id": 6,
+      "group_id": 3,
+      "audience": "VIP community",
+      "message": "Hello {{1}} \u2728\n\nFresh arrivals are here, and we think you'll love them. Explore the new collection and find something that feels like you.\n\nReply STOP to opt out.",
+      "variables": [],
+      "status": "Scheduled",
+      "mode": "demo",
+      "scheduled_at": "2026-10-14T22:50:52.694755+00:00",
+      "sent_at": null,
+      "color": "#F4E6EA",
+      "created_at": "2026-10-13T22:50:52+00:00",
+      "updated_at": "2026-10-13T22:50:52+00:00",
+      "last_error": "",
+      "total": 0,
+      "sent": 0,
+      "delivered": 0,
+      "read": 0,
+      "failed": 0,
+      "audience_count": 262,
+      "template": {
+        "title": "Meet your new favorites",
+        "status": "Demo approved",
+        "name": "new_product_drop"
+      }
+    },
+    {
+      "id": 1,
+      "user_id": 1,
+      "name": "Weekend flash sale",
+      "template_id": 1,
+      "group_id": null,
+      "audience": "All opted-in contacts",
+      "message": "Hi {{1}} \ud83d\udc4b\n\nA little something for your weekend: enjoy 20% off our entire collection with code WEEKEND20.\n\nYour next favorite is waiting. Offer ends Sunday.\n\nReply STOP to opt out.",
+      "variables": [],
+      "status": "Completed",
+      "mode": "demo",
+      "scheduled_at": null,
+      "sent_at": "2026-10-12T20:50:52.694755+00:00",
+      "color": "#ECF2E4",
+      "created_at": "2026-10-12T20:50:52.694755+00:00",
+      "updated_at": "2026-10-12T20:50:52.694755+00:00",
+      "last_error": "",
+      "total": 1450,
+      "sent": 1424,
+      "delivered": 1424,
+      "read": 1002,
+      "failed": 26,
+      "audience_count": 2283,
+      "template": {
+        "title": "Weekend flash sale",
+        "status": "Demo approved",
+        "name": "weekend_flash_sale"
+      }
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "name": "October new arrivals",
+      "template_id": 6,
+      "group_id": null,
+      "audience": "All opted-in contacts",
+      "message": "Hello {{1}} \u2728\n\nFresh arrivals are here, and we think you'll love them. Explore the new collection and find something that feels like you.\n\nReply STOP to opt out.",
+      "variables": [],
+      "status": "Completed",
+      "mode": "demo",
+      "scheduled_at": null,
+      "sent_at": "2026-10-11T20:50:52.694755+00:00",
+      "color": "#F4E6EA",
+      "created_at": "2026-10-11T20:50:52.694755+00:00",
+      "updated_at": "2026-10-11T20:50:52.694755+00:00",
+      "last_error": "",
+      "total": 1215,
+      "sent": 1193,
+      "delivered": 1193,
+      "read": 841,
+      "failed": 22,
+      "audience_count": 2283,
+      "template": {
+        "title": "Meet your new favorites",
+        "status": "Demo approved",
+        "name": "new_product_drop"
+      }
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "name": "A thank-you to our VIPs",
+      "template_id": 5,
+      "group_id": null,
+      "audience": "VIP community",
+      "message": "Hi {{1}}, this one's for you. \ud83d\udc9a\n\nThank you for being part of our story. Here's 15% off your next order, just because. Use THANKYOU15.\n\nReply STOP to opt out.",
+      "variables": [],
+      "status": "Completed",
+      "mode": "demo",
+      "scheduled_at": null,
+      "sent_at": "2026-10-10T20:50:52.694755+00:00",
+      "color": "#E5F2E9",
+      "created_at": "2026-10-10T20:50:52.694755+00:00",
+      "updated_at": "2026-10-10T20:50:52.694755+00:00",
+      "last_error": "",
+      "total": 286,
+      "sent": 281,
+      "delivered": 281,
+      "read": 199,
+      "failed": 5,
+      "audience_count": 2283,
+      "template": {
+        "title": "A little thank-you",
+        "status": "Demo approved",
+        "name": "customer_thank_you"
+      }
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "name": "Community pop-up invite",
+      "template_id": 4,
+      "group_id": null,
+      "audience": "All opted-in contacts",
+      "message": "Hey {{1}}, you're invited! \ud83c\udf89\n\nJoin us at the community pop-up this Saturday, 11 am \u2013 5 pm. Good people, great finds, and a few surprises.\n\nReply STOP to opt out.",
+      "variables": [],
+      "status": "Completed",
+      "mode": "demo",
+      "scheduled_at": null,
+      "sent_at": "2026-10-09T20:50:52.694755+00:00",
+      "color": "#F6ECDD",
+      "created_at": "2026-10-09T20:50:52.694755+00:00",
+      "updated_at": "2026-10-09T20:50:52.694755+00:00",
+      "last_error": "",
+      "total": 1867,
+      "sent": 1834,
+      "delivered": 1834,
+      "read": 1292,
+      "failed": 33,
+      "audience_count": 2283,
+      "template": {
+        "title": "Let's meet at the pop-up",
+        "status": "Demo approved",
+        "name": "community_event"
+      }
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "name": "September favorites",
+      "template_id": 6,
+      "group_id": null,
+      "audience": "All opted-in contacts",
+      "message": "Hello {{1}} \u2728\n\nFresh arrivals are here, and we think you'll love them. Explore the new collection and find something that feels like you.\n\nReply STOP to opt out.",
+      "variables": [],
+      "status": "Completed",
+      "mode": "demo",
+      "scheduled_at": null,
+      "sent_at": "2026-10-08T20:50:52.694755+00:00",
+      "color": "#F4E6EA",
+      "created_at": "2026-10-08T20:50:52.694755+00:00",
+      "updated_at": "2026-10-08T20:50:52.694755+00:00",
+      "last_error": "",
+      "total": 1820,
+      "sent": 1787,
+      "delivered": 1787,
+      "read": 1257,
+      "failed": 33,
+      "audience_count": 2283,
+      "template": {
+        "title": "Meet your new favorites",
+        "status": "Demo approved",
+        "name": "new_product_drop"
+      }
+    },
+    {
+      "id": 6,
+      "user_id": 1,
+      "name": "Hello, new subscribers",
+      "template_id": 2,
+      "group_id": null,
+      "audience": "All opted-in contacts",
+      "message": "Hi {{1}}, welcome to our little corner of the world! \ud83c\udf3f\n\nWe're so glad you're here. Expect thoughtful updates, first looks, and the occasional treat.\n\nReply STOP to opt out.",
+      "variables": [],
+      "status": "Completed",
+      "mode": "demo",
+      "scheduled_at": null,
+      "sent_at": "2026-10-07T20:50:52.694755+00:00",
+      "color": "#EDE8F6",
+      "created_at": "2026-10-07T20:50:52.694755+00:00",
+      "updated_at": "2026-10-07T20:50:52.694755+00:00",
+      "last_error": "",
+      "total": 920,
+      "sent": 904,
+      "delivered": 904,
+      "read": 636,
+      "failed": 16,
+      "audience_count": 2283,
+      "template": {
+        "title": "Welcome to the community",
+        "status": "Demo approved",
+        "name": "community_welcome"
+      }
+    }
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "title": "Weekend flash sale completed",
+      "description": "1,424 messages delivered to your community",
+      "kind": "campaign",
+      "created_at": "2026-10-13T22:38:52.694755+00:00"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "title": "New contacts added",
+      "description": "42 subscribers joined Lagos customers",
+      "kind": "contact",
+      "created_at": "2026-10-13T22:12:52.694755+00:00"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "title": "VIP early access scheduled",
+      "description": "Ready for tomorrow. Your VIPs are in for a treat.",
+      "kind": "schedule",
+      "created_at": "2026-10-13T21:26:52.694755+00:00"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "title": "Contact list imported",
+      "description": "Abuja founders \u00b7 consented member list",
+      "kind": "group",
+      "created_at": "2026-10-13T20:45:52.694755+00:00"
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "title": "New template created",
+      "description": "Meet your new favorites \u00b7 Demo approved",
+      "kind": "template",
+      "created_at": "2026-10-13T18:50:52.694755+00:00"
+    }
+  ],
+  "integration": {
+    "connected": false,
+    "mode": "demo",
+    "group_member_access": false
+  }
+}

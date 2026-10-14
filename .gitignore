@@ -1,0 +1,16 @@
+node_modules/
+.cache/
+__pycache__/
+*.pyc
+.env
+backend/data/.secret
+backend/data/*.sqlite3*
+mobile/.dart_tool/
+mobile/.flutter-plugins*
+mobile/build/
+mobile/android/.gradle/
+mobile/android/local.properties
+mobile/ios/Pods/
+mobile/ios/.symlinks/
+test-results/
+playwright-report/
