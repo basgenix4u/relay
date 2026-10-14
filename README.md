@@ -1,5 +1,7 @@
 # Relay · Big reach. Personal touch.
 
+**Live:** https://relay-70ml.onrender.com · **Repo:** https://github.com/basgenix4u/relay (public) · **API docs:** https://relay-70ml.onrender.com/docs
+
 A full-stack, consent-first WhatsApp marketing workspace built with **Flutter** and **FastAPI + SQLite**. The running browser preview is the actual Flutter app, not a separate React mockup. Android and iOS source projects are included.
 
 ## What you can do
